@@ -1,0 +1,11 @@
+{
+  "user": [
+    {
+      "nickName": "wongil",
+      "email": "kim@naver.com",
+      "password": "Qwas!123",
+      "passwordCheck": "Qwas!123",
+      "id": 1
+    }
+  ]
+}

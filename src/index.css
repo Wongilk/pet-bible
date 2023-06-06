@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.search-bar {
+  position: relative;
+  flex-shrink: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #666;
+}
+.table thead tr th {
+  text-align: center !important;
+}
+.table thead tr th:nth-child(1) {
+  width: 55%;
+}
+.table thead tr th:nth-child(2) {
+  width: 15%;
+}
+.table thead tr th:nth-child(3) {
+  width: 15%;
+}
+.table thead tr th:nth-child(4) {
+  width: 15%;
+}
+.table tbody tr td:not(:first-child) {
+  text-align: center;
+}
+.mypage_container tr {
+  border-bottom: 1px solid lightgray;
+}
+.mypage_container th,
+.mypage_container td {
+  vertical-align: middle;
+}
+.hide_row {
+  display: none;
+}
+.mypage_container {
+  height: 10rem;
 }
